@@ -1,0 +1,66 @@
+.hero-text {
+  margin-top: 13rem;
+  padding-right: 1rem;
+  font-size: 4rem;
+  color: rgb(80, 80, 80);
+  font-family: "Khula", sans-serif;
+}
+.hero-food {
+  width: 1000px;
+  padding-right: 50px;
+  object-fit: cover;
+  position: relative;
+  /* top: -100px; */
+}
+
+.hero-description {
+  margin: 20px 0;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-weight: 400;
+  padding-right: 70px;
+  font-family: "Khula", sans-serif;
+}
+
+.orderbtn {
+  color: white;
+  background-color: #ff9f0d;
+  margin-bottom: 50px;
+}
+
+.side-nuts {
+  width: 200px;
+  position: relative;
+  transform: rotate(-20deg);
+  top: -7px;
+  left: -50px;
+  margin-bottom: 3rem;
+}
+
+.learn-more {
+  margin-top: 100px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 970px) {
+  .hero-text {
+    margin-top: 2rem;
+  }
+
+  .side-nuts-container {
+    visibility: hidden;
+  }
+
+  .hero-food {
+    width: 1000px;
+    position: relative;
+    top: -200px;
+    margin-top: 90px;
+  }
+}
+
+/* Animations */
+:root {
+  --animate-duration: 2000ms;
+  --animate-delay: 0.9s;
+}
