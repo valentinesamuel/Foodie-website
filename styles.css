@@ -10,7 +10,6 @@
   padding-right: 50px;
   object-fit: cover;
   position: relative;
-  /* top: -100px; */
 }
 
 .hero-description {
@@ -20,6 +19,14 @@
   font-weight: 400;
   padding-right: 70px;
   font-family: "Khula", sans-serif;
+}
+
+
+
+.noborder{
+  border: none;
+  box-shadow: 4px 6px 65px 3px rgba(0, 0, 0, 0.1);
+  
 }
 
 .orderbtn {
@@ -52,6 +59,34 @@
 /* How it works section */
 .how-it-works {
   margin-bottom: 8rem;
+}
+
+/* What are they saying section */
+.review {
+  height: fit-content;
+  width: 600px;
+  padding: 0px 5rem 2rem 5rem;
+  box-shadow: 4px 6px 65px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 50% 20% / 10% 40%;
+}
+.reviewer {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+}
+
+/* FOoter */
+.footer-address {
+  display: flex;
+}
+.foot-item {
+  padding-bottom: 0px;
+  margin-right: 3rem;
+}
+
+.footer-links {
+  text-decoration: none;
 }
 
 /* Media Queries */
